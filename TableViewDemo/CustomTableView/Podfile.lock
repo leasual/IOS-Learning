@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (3.2.1)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - MZTimerLabel (0.5.4)
+  - youtube-ios-player-helper (0.1.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - ChameleonFramework/Swift
+  - MZTimerLabel
+  - youtube-ios-player-helper (from `https://github.com/youtube/youtube-ios-player-helper`,
+    commit `head`)
+
+EXTERNAL SOURCES:
+  youtube-ios-player-helper:
+    :commit: head
+    :git: https://github.com/youtube/youtube-ios-player-helper
+
+CHECKOUT OPTIONS:
+  youtube-ios-player-helper:
+    :commit: head
+    :git: https://github.com/youtube/youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
+  youtube-ios-player-helper: 921da8927a575debc293a94c678c658f38cde150
+
+COCOAPODS: 0.38.2
